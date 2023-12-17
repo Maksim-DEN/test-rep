@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juice 1992 - Сайт визитка</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #111;
+      color: #fff;
+    }
+
+    header {
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+
+    .movie-info {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .movie-info img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .movie-info p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+
+    footer {
+      background-color: #222;
+      text-align: center;
+      padding: 10px 0;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1><a href="#" id="juiceLink">Juice 1992</a></h1>
+  </header>
+
+  <div class="container">
+    <div class="movie-info">
+      <img src="juice_movie.jpg" alt="Juice 1992">
+      <p>"Juice" - это фильм 1992 года с Тупаком Шакуром в главной роли. Фильм рассказывает историю четырех подростков из Гарлема,
+        чья жизнь меняется после того, как они сталкиваются с проблемами уличной жизни.</p>
+      <p>Режиссер: Ernest R. Dickerson</p>
+      <p>В ролях: Тупак Шакур, Омар Эппс, Кэйн Абель, Джереми Хаффман</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2023 Juice Fansite</p>
+  </footer>
+
+  <script>
+    
+    const juiceLink = document.getElementById('juiceLink');
+
+    
+    juiceLink.addEventListener('click', function(event) {
+      
+      event.preventDefault();
+      
+      
+      window.location.href = 'https://villains.fandom.com/wiki/Bishop_(Juice)';
+    });
+  </script>
+</body>
+
+</html>
